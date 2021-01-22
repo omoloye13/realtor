@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.play-container{
+    margin-left: 90%;
+}
+.mid-text{
+    text-align: center;
+    /* margin-top: 1%; */
+}
+.image{
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+}
+.card{
+    /* background-size: contain; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(../image/realtor.png);
+}
+.card-text{
+    text-align: center;
+    color: rgb(85, 19, 85);
+}
+.icon{
+    width: 50% ;
+    margin: auto;
+    margin-top: 2%;
+}
+.all{
+    width: 30%;
+    margin: auto;
+    display: flex;
+}
+#phone{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4%;
+    background-color: salmon;
+}
+#mail{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4%;
+    background-color: violet;
+}
+#box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4%;
+    background-color: aquamarine;
+}
+/* ******************** */
+
+.text{
+    width: 50%;
+    background-color: violet;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5px;
+
+}
+.show{
+    margin-left: 80%;
+}
+/* **********MEDIA QUERIES***************** */
+@media(max-width:650px){
+.container{
+    width: 99%;
+}
+.play-container{
+    margin-left: 87%;  
+}
+.all{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+#phone{
+    background-color: salmon;
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4%;
+    padding: 2%;
+}
+#mail{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4%;
+    padding: 2%;
+    background-color: violet;
+}
+#box{
+    padding: 2%;
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 4%;
+    background-color: aquamarine;
+}
+.show{
+    margin-left: 56%;
+}
+.text{
+    width: 90%;
+    background-color: violet;
+    margin: auto;
+    margin-top: 8%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.display{
+    display: flex;
+    padding: 1%;
+    margin-top: 4%;
+}
+.copy{
+    margin-left: 30%;
+}
+.con{
+    background-color: aquamarine;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2%;
+}
+.btn{
+    
+    background-color: rgb(34, 34, 116);
+    width: 80%;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    border: solid rgb(34, 34, 116);
+
+
+}
+button{
+    background-color: rgb(34, 34, 116);
+    width: 100%;
+    color: white; 
+    cursor: pointer;
+
+}
+}
